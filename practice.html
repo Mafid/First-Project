@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet Speed Test</title>
+    <link rel="stylesheet" href="prac.css">
+</head>
+<body>
+    <div class="speed-test-container">
+        <div class="header">
+            <img src="nsp.JPG" alt="Network Speed Logo" class="logo">
+            <h1>Speedtest</h1>
+        </div>
+
+        <div class="results">
+            <div class="ping">
+                <h2>PING</h2>
+                <p><span id="ping-value">62</span> ms</p>
+            </div>
+            <div class="download">
+                <h2>DOWNLOAD</h2>
+                <p><span id="download-value">8.6</span> Mbps</p>
+                <div class="chart" id="download-chart"></div>
+            </div>
+            <div class="upload">
+                <h2>UPLOAD</h2>
+                <p><span id="upload-value">14.3</span> Mbps</p>
+                <div class="chart" id="upload-chart"></div>
+            </div>
+        </div>
+
+        <a href="index.html"><button class="test-button" onclick="startTest()">AGAIN</button></a>
+
+        <div class="details">
+            <p><strong>Network Speed</strong><br>Bangladesh</p>
+            <p>IP: 103.189.156.54</p>
+        </div>
+
+        <div class="share">
+            <button>Copy Link</button>
+            <button>Share on Twitter</button>
+            <button>Share on Facebook</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+
+
+/* Reset styles for better consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  /* Body styling */
+  body {
+    background-color: #e0fbfc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Card styling */
+  .card {
+    display: flex;
+    background-color: #8d3a3a;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+  }
+  
+  /* Each metric block */
+  .metric {
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+  }
+  
+  .icon {
+    font-size: 40px;
+    color: #c7c7c7;
+    margin-right: 10px;
+  }
+  
+  .info {
+    text-align: left;
+  }
+  
+  .label {
+    font-size: 14px;
+    color: #bbbbbb;
+  }
+  
+  .value {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  /* Retest button */
+  .retest-btn {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .retest-btn:hover {
+    background-color: #2563eb;
+  }
+  a{
+    color: lightsalmon;
+    font-size: 30px;
+    padding: 20px;
+  }
